@@ -22,6 +22,7 @@ var height; // Variable Declaration
 
 console.log(height);
 
+
 height = "6"; // initialization
 
 console.log(height);
@@ -29,4 +30,7 @@ console.log(height);
 height = "6.2 feet";// update
 
 console.log(height);
+
+var marks="78%";
+console.log("10 th marks :",marks);
 

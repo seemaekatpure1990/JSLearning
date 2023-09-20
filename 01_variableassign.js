@@ -3,7 +3,7 @@
 var myFullName;
 console.log(myFullName);
 
-myFullName="Seema ekatpure"
+myFullName="Seema Ekatpure"
 console.log(myFullName);
 myFullName="Seema Vishwajeet Ekatpure"
 console.log(myFullName);
