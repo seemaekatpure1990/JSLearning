@@ -29,5 +29,5 @@ console.log("pinCode :",pinCode);
 var gender="Female";
 console.log("gender :",gender);
 
-var isMarried="Mrried";
+var isMarried="Married";
 console.log("isMarried :",isMarried);
