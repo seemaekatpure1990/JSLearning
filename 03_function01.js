@@ -39,6 +39,7 @@ console.log(" ====== function with  arguments and return type ===== ");
 function addThreeValues(numOne,numTwo,numThree)
 {
 var result=numOne+numTwo+numThree;
+//console.log(numOne+numTwo+numThree);
 return result;
 }
 var addition=addThreeValues(10.23,600,40);
