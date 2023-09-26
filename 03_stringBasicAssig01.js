@@ -18,7 +18,7 @@ console.log("============(2)===================");
      var length3=hobby3;
      var totallength3=hobby3.length;
      var result=totalLength1+totallength2+totallength3;
-     console.log("Total lenght of hobbies : ",result);
+     console.log("Total length of hobbies : ",result);
 
 
 
