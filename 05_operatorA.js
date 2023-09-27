@@ -10,13 +10,13 @@ function squareOfWordLength(str) {
 console.log(`===================== Assignment 1 =======================`);
 console.log(`=========== 1 ============`);
 console.log(`----1.1----`);
-squareOfWordLength("JavaScript");
+ var result=squareOfWordLength("JavaScript");
 
 console.log(`----1.2----`);
-squareOfWordLength("Google Chrome");
+ var result=squareOfWordLength("Google Chrome");
 
 console.log(`----1.3----`);
-squareOfWordLength("Developer Smart");
+ var result =squareOfWordLength("Developer Smart");
 
 console.log(`=========== 2 =============`);
 
