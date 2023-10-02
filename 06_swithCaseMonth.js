@@ -39,15 +39,16 @@ var  monthOfYear=function(month){
             break;
     
         default:
-            console.log(`Invalid`);
+            console.log(`Invalid data`);
             break;
     }
 }
 monthOfYear(0);
 monthOfYear(2);
-monthOfYear(5);
-monthOfYear(12);
 monthOfYear(15);
 monthOfYear(100);
-monthOfYear(null);
+monthOfYear(5);
+monthOfYear(12);
 monthOfYear(undefined);
+monthOfYear(10);
+monthOfYear(null);
