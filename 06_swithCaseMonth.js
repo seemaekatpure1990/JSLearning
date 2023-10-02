@@ -2,53 +2,52 @@
 var  monthOfYear=function(month){
     switch (month) {
         case 1: 
-         console.log(`January`);
+         console.log(`January  :${month}`);
             break;
             case 2: 
-         console.log(`February`);
+         console.log(`February  :${month}`);
             break;
             case 3: 
-         console.log(`March`);
+         console.log(`March  :${month}`);
             break;
             case 4: 
-         console.log(`April`);
+         console.log(`April  :${month}`);
             break;
             case 5: 
-         console.log(`May`);
+         console.log(`May  :${month}`);
             break;
             case 6: 
-         console.log(`June`);
+         console.log(`June  :${month}`);
             break;
             case 7: 
-         console.log(`July`);
+         console.log(`July  :${month}`);
             break;
             case 8: 
-         console.log(`August`);
+         console.log(`August  :${month}`);
             break;
             case 9: 
-         console.log(`September`);
+         console.log(`September  :${month}`);
             break;
             case 10: 
-         console.log(`October`);
+         console.log(`October  :${month}`);
             break;
             case 11: 
-         console.log(`November`);
+         console.log(`November  :${month}`);
             break;
             case 12: 
-         console.log(`December`);
+         console.log(`December :${month} `);
             break;
     
         default:
-            console.log(`Invalid data`);
+            console.log(`Invalid  month data : ${month}`);
             break;
     }
 }
 monthOfYear(0);
 monthOfYear(2);
-monthOfYear(15);
-monthOfYear(100);
 monthOfYear(5);
 monthOfYear(12);
-monthOfYear(undefined);
-monthOfYear(10);
+monthOfYear(15);
+monthOfYear(100);
 monthOfYear(null);
+monthOfYear(undefined);
