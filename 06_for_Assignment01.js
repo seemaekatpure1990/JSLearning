@@ -27,9 +27,12 @@ for (let index = 5; index <=50; index=index+5) {
 }   
 console.log(`=================== step 6 =====================`);
 // print table of 10 like ----->10 20 30 ..100
+var result=" ";
 for (let index = 10; index <=100; index=index+10) {
-    console.log(index);
-}   
+    result=result+index+" ";
+}  
+console.log(result); 
+
 console.log(`=================== step 7 =====================`);
 // print table of 10 in reverse order like ----->100 90 80 ....10
 var result= " ";
