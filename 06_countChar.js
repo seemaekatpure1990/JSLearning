@@ -1,15 +1,19 @@
 
-var count =0;
-  var countChar=function (str) {
-   for (let index = 0; index < countChar.length; index++) {
-  if (str.charAt(index)=='a' || str.charAt(index)=='A') {
-    count=count+1;
+function countCharA(str) {
+  var char = 'aA';
+  var count = 0;
+  for (let i = 0; i <= str.length - 1; i++) {
+      var countA = str.charAt(i);
+      if (char.includes(countA)) {
+
+          count++;
+      }
   }
-  console.log(`Given String is : ${str}`);
-    console.log(`The total numbers of 'a 'and 'A' are : ${count}` );
-   }
+  console.log(count);
+}
+console.log(`The number of 'A' and 'a' in the string1 is:`);
+countCharA("I AM Learning JavaScript, The Language of internet")
+console.log(`The number of 'A' and 'a' in the string2 is:`);
+countCharA("My favorite movie is LAggAn");
   
-   } 
-countChar("I AM Learning ,The Language of internet");
-countChar("My favorite movie is LAggAn ");
-    
+
